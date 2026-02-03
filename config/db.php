@@ -1,8 +1,5 @@
 <?php
 $host = "localhost";
-// $dbname = "np03cy4a240013";
-// $username = "np03cy4a240013";
-// $password = "y2HUa02V9V";
 $dbname = "event_management";
 $username = "root";
 $password = "";
