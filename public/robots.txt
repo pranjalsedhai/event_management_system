@@ -1,0 +1,36 @@
+# robots.txt for Event Management System
+
+# Allow all search engines to crawl the site
+User-agent: *
+
+# Allow crawling of main pages
+Allow: /
+Allow: /index.php
+Allow: /login.php
+Allow: /register.php
+Allow: /search.php
+Allow: /event.php
+
+# Disallow sensitive or unnecessary pages
+Disallow: /add_event.php
+Disallow: /edit_event.php
+Disallow: /delete_event.php
+Disallow: /participate.php
+Disallow: /logout.php
+Disallow: /ajax_search.php
+
+# Disallow crawling of private directories
+Disallow: /includes/
+Disallow: /templates/
+
+# Disallow crawling of asset uploads
+Disallow: /assets/images/
+
+# Allow CSS and JS for proper rendering
+Allow: /assets/css/*
+Allow: /assets/js/*
+
+# Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://student.heraldcollege.edu.np/~np03cy4a240013/event_management/public/sitemap.xml
